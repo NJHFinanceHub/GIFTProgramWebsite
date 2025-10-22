@@ -1,0 +1,119 @@
+
+
+**Context & Purpose:**
+ReCreate a website (http://hfw.wlin.pl/) for GIFT (Global Institute For Transformation), a non-profit organization, to showcase our sweet potato farming projects to donors and supporters. This site educates visitors about how we're addressing global hunger and poverty through sustainable agriculture partnerships with churches in Haiti, Malawi, and future locations.
+
+**Non-Profit Requirements:**
+- Low maintenance overhead (limited IT resources)
+- Easy content updates by non-technical staff
+- Mobile-responsive design (many donors view on phones)
+- Fast loading times (international audience with varying internet speeds)
+- Accessibility compliant (WCAG 2.1 AA)
+- Clear calls-to-action for donations and involvement
+
+**Core Website Structure:**
+
+**Homepage:**
+- Hero section with mission statement and compelling imagery
+- Overview of the sweet potato farming strategy and its impact
+- Key statistics: lives impacted, farmers helped, countries served
+- Quick links to project locations (Haiti, Malawi, Future Projects)
+- Embedded video showcasing the project (if available)
+- Contact information and "Get Involved" CTA
+
+**Main Content Sections:**
+1. **Why Sweet Potatoes?**
+   - Nutritional benefits ("Mother Teresa of Food")
+   - Economic impact and propagation model
+   - Sustainability advantages
+   - Global market potential
+
+2. **Our Approach**
+   - Church twinning model explanation
+   - Technology integration (soil sensors, weather monitoring, webcams)
+   - USDA expertise partnership
+   - Scalability and replication strategy
+
+3. **Project Locations** (separate pages or sections):
+   - Haiti project details
+   - Malawi project details
+   - Impact metrics per location
+   - Photo galleries and success stories
+
+4. **Get Involved**
+   - How churches can participate
+   - Family participation opportunities
+   - Partnership with Poznan Supercomputing Center
+   - Donation options
+   - Contact form
+
+5. **Resources Section**
+   - Growing tips and best practices
+   - Recipe collection (potatoes and leaves)
+   - Video tutorials
+   - Downloadable farming guides
+
+6. **Impact & Transparency**
+   - Annual reports and metrics
+   - UN Sustainable Development Goals alignment
+   - Success stories and testimonials
+   - Financial transparency (donor trust)
+
+**Technical Features Needed:**
+- Integration capability for weather data APIs
+- Video hosting/embedding
+- Photo gallery with lazy loading
+- Newsletter signup form
+- Contact form with email notifications
+- Social media integration
+- Google Analytics for donor engagement tracking
+
+**Design Preferences:**
+- Clean, professional, trust-building aesthetic
+- Orange/earth tone color scheme (reflects sweet potatoes)
+- High-quality imagery of farmers, crops, communities
+- Clear typography for older donor demographic
+- Minimal but purposeful animations
+- White space for readability
+
+**Technology Stack Recommendations:**
+- Static site generator (Hugo, Jekyll, or Eleventy) for ease of maintenance
+- Markdown-based content management
+- GitHub Pages or Netlify hosting (free/low-cost)
+- Simple CMS option (Netlify CMS or Forestry) for staff updates
+- Responsive CSS framework (Tailwind or Bootstrap)
+
+**Must-Have Content from Current Site:**
+- Matthew 25 religious framing
+- Statistics on child mortality from Vitamin A deficiency and diarrhea
+- Explanation of propagation method
+- USCCB Document on The Laity reference
+- Partnership credits (Arpin Strong, St. Matthew Parish, Tolland CT; Poznan Supercomputing Center)
+- Contact: Tim Maurer, timothy.maurer@institutefortransformation.org, 402-212-7973
+- Link to main GIFT site: https://www.gifttransforms.org/
+
+**Success Metrics:**
+- Increased donor inquiries
+- Church partnership signups
+- Newsletter subscriptions
+- Time on site and engagement metrics
+- Mobile usability scores
+
+**Deliverables:**
+1. Complete website with all pages
+2. README with instructions for content updates
+3. Documentation for adding new projects/locations
+4. Basic SEO optimization
+5. Contact form that works without backend server
+6. Deployment instructions for hosting platform
+
+**Constraints:**
+- Must work without ongoing developer support
+- Budget-conscious solution (prefer free/open-source tools)
+- Content should be updatable via simple text files or basic CMS
+- No complex database requirements
+
+Please create a fully functional, production-ready website that tells GIFT's story compellingly while making it easy for donors to understand our impact and get involved.
+
+---
+
