@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GIFT's Haiti sweet potato farming project - bringing nutrition, hope, and sustainable livelihoods to Haitian communities.">
+    <meta name="keywords" content="Haiti, sweet potato, farming, poverty, hunger, development, agriculture">
+    <title>Haiti Project - GIFT | Transforming Lives Through Agriculture</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="antialiased">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <a href="index.html" class="text-2xl font-bold text-white hover:text-gray-100 transition">GIFT</a>
+                    <span class="text-white text-sm hidden md:inline">| Global Institute For Transformation</span>
+                </div>
+                <div id="nav-menu" class="hidden md:flex items-center space-x-6">
+                    <a href="index.html" class="nav-link text-white font-medium">Home</a>
+                    <a href="why-sweet-potatoes.html" class="nav-link text-white font-medium">Why Sweet Potatoes?</a>
+                    <a href="our-approach.html" class="nav-link text-white font-medium">Our Approach</a>
+                    <div class="relative group">
+                        <button class="nav-link text-white font-medium flex items-center">
+                            Projects
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 py-2 w-48">
+                            <a href="haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Haiti Project</a>
+                            <a href="malawi.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Malawi Project</a>
+                        </div>
+                    </div>
+                    <a href="resources.html" class="nav-link text-white font-medium">Resources</a>
+                    <a href="impact.html" class="nav-link text-white font-medium">Impact</a>
+                    <a href="get-involved.html" class="btn-secondary">Get Involved</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden text-white" aria-label="Toggle navigation menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">Haiti Project</h1>
+                    <p class="text-xl md:text-2xl mb-8">
+                        Bringing hope and nutrition to Haitian communities through sustainable sweet potato farming
+                    </p>
+                    <div class="inline-block bg-white bg-opacity-20 px-6 py-3 rounded-lg">
+                        <p class="text-lg">Project Status: <span class="font-bold">Active</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Overview -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-8">Project Overview</h2>
+                    <p class="text-xl text-gray-700 text-center mb-12">
+                        Our Haiti project addresses extreme poverty and malnutrition through sustainable agriculture
+                        and church partnerships.
+                    </p>
+
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div class="bg-blue-50 p-8 rounded-lg">
+                            <div class="bg-blue-200 h-64 rounded-lg flex items-center justify-center">
+                                <svg class="w-32 h-32 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                </svg>
+                            </div>
+                            <p class="text-center text-sm text-gray-600 mt-4">
+                                Location: Haiti
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4">The Challenge</h3>
+                            <p class="text-lg text-gray-700 mb-4">
+                                Haiti faces severe food insecurity, with over 4.9 million people experiencing hunger.
+                                Malnutrition rates are among the highest in the Western Hemisphere, particularly
+                                affecting children and pregnant women.
+                            </p>
+                            <h3 class="text-2xl font-bold mb-4 mt-6">Our Solution</h3>
+                            <p class="text-lg text-gray-700">
+                                We partner with local churches to establish sweet potato farms that provide:
+                            </p>
+                            <ul class="mt-4 space-y-2">
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span>Nutritious food for vulnerable families</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span>Income opportunities for local farmers</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span>Agricultural training and expertise</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span>Community development and empowerment</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Statistics -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto text-center mb-12">
+                    <h2 class="section-title">Project Impact</h2>
+                    <p class="text-xl text-gray-700 mt-8">
+                        Real results from our work in Haiti
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                    <div class="stat-card bg-gradient-to-br from-blue-500 to-blue-700">
+                        <div class="stat-number" data-value="5000" data-suffix="+">0+</div>
+                        <div class="stat-label">People Reached</div>
+                    </div>
+                    <div class="stat-card bg-gradient-to-br from-green-500 to-green-700">
+                        <div class="stat-number" data-value="200" data-suffix="+">0+</div>
+                        <div class="stat-label">Farmers Trained</div>
+                    </div>
+                    <div class="stat-card bg-gradient-to-br from-orange-500 to-orange-700">
+                        <div class="stat-number" data-value="15000" data-suffix="+">0+</div>
+                        <div class="stat-label">lbs of Sweet Potatoes Grown</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partner Churches -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-12">Partner Churches</h2>
+
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="card p-8">
+                            <h3 class="text-2xl font-bold mb-4 text-center">U.S. Partner</h3>
+                            <div class="text-center mb-6">
+                                <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto">
+                                    <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4 class="font-bold text-xl mb-2">St. Matthew Parish</h4>
+                            <p class="text-gray-600 mb-4">Tolland, Connecticut</p>
+                            <p class="text-gray-700">
+                                St. Matthew Parish has been a faithful partner in our Haiti project, providing
+                                financial support, prayer, and ongoing engagement with the Haitian community.
+                            </p>
+                        </div>
+
+                        <div class="card p-8">
+                            <h3 class="text-2xl font-bold mb-4 text-center">Haiti Partner</h3>
+                            <div class="text-center mb-6">
+                                <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto">
+                                    <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h4 class="font-bold text-xl mb-2">Local Parish Community</h4>
+                            <p class="text-gray-600 mb-4">Haiti</p>
+                            <p class="text-gray-700">
+                                Our partner church in Haiti manages the daily farming operations, distributes
+                                produce to families in need, and trains community members in sustainable agriculture.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mt-12 bg-orange-50 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold mb-4 text-center">Partnership with Arpin Strong</h3>
+                        <p class="text-lg text-gray-700 text-center">
+                            We're grateful to partner with <strong>Arpin Strong</strong> in supporting our Haiti project,
+                            providing logistics expertise and community engagement that strengthens our impact.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Success Stories -->
+        <section class="py-20 bg-gradient-to-b from-gray-50 to-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-12">Success Stories</h2>
+
+                    <div class="space-y-12">
+                        <div class="card p-8">
+                            <div class="flex items-start mb-4">
+                                <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold mb-2">Marie's Story</h3>
+                                    <p class="text-gray-600 italic mb-4">Mother of three, Haiti</p>
+                                </div>
+                            </div>
+                            <p class="text-lg text-gray-700">
+                                "Before this program, my children were often hungry. Now, we have sweet potatoes to eat
+                                every day, and I even sell some at the market. My youngest daughter's health has improved
+                                so much since we started eating the leaves in our meals. This project has given us hope."
+                            </p>
+                        </div>
+
+                        <div class="card p-8">
+                            <div class="flex items-start mb-4">
+                                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold mb-2">Jean's Story</h3>
+                                    <p class="text-gray-600 italic mb-4">Farmer and trainer, Haiti</p>
+                                </div>
+                            </div>
+                            <p class="text-lg text-gray-700">
+                                "I learned how to grow sweet potatoes through this program, and now I teach other farmers
+                                in my community. I've been able to feed my family and earn income by selling the harvest.
+                                The training gave me skills I never had before. I'm now helping five other families start
+                                their own sweet potato gardens."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Placeholder -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="section-title text-center mb-12">Photo Gallery</h2>
+
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+                            <svg class="w-24 h-24 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+                            <svg class="w-24 h-24 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+                            <svg class="w-24 h-24 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+                            <svg class="w-24 h-24 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+                            <svg class="w-24 h-24 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+                            <svg class="w-24 h-24 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-center text-gray-600 mt-8">
+                        Photos coming soon - Add images to the /images folder and update this section
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-6">Support Our Haiti Project</h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">
+                    Your church or family can partner with us to expand our impact in Haiti and transform more lives.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="get-involved.html" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition">
+                        Get Involved
+                    </a>
+                    <a href="malawi.html" class="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-blue-600 transition">
+                        See Malawi Project
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">GIFT</h4>
+                    <p class="text-gray-400 mb-4">Global Institute For Transformation - Fighting hunger and poverty through sustainable agriculture.</p>
+                    <a href="https://www.gifttransforms.org/" target="_blank" rel="noopener noreferrer" class="text-orange-400 hover:text-orange-300">Visit Main GIFT Website →</a>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="why-sweet-potatoes.html" class="text-gray-400 hover:text-orange-400">Why Sweet Potatoes?</a></li>
+                        <li><a href="our-approach.html" class="text-gray-400 hover:text-orange-400">Our Approach</a></li>
+                        <li><a href="resources.html" class="text-gray-400 hover:text-orange-400">Resources</a></li>
+                        <li><a href="impact.html" class="text-gray-400 hover:text-orange-400">Impact & Transparency</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Our Projects</h4>
+                    <ul class="space-y-2">
+                        <li><a href="haiti.html" class="text-gray-400 hover:text-orange-400">Haiti</a></li>
+                        <li><a href="malawi.html" class="text-gray-400 hover:text-orange-400">Malawi</a></li>
+                        <li><a href="get-involved.html" class="text-gray-400 hover:text-orange-400">Get Involved</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Contact Us</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><strong>Tim Maurer</strong><br>
+                            <a href="mailto:timothy.maurer@institutefortransformation.org" class="hover:text-orange-400">timothy.maurer@institutefortransformation.org</a>
+                        </li>
+                        <li><a href="tel:402-212-7973" class="hover:text-orange-400">402-212-7973</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 text-center text-gray-500 text-sm">
+                <p>&copy; 2025 Global Institute For Transformation (GIFT). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-orange-500 text-white p-4 rounded-full shadow-lg hover:bg-orange-600 transition transform hover:scale-110 hidden" aria-label="Back to top">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
