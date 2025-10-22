@@ -1,0 +1,20 @@
+{
+  "name": "gift-program-website",
+  "version": "1.0.0",
+  "description": "GIFT (Global Institute For Transformation) - Sweet Potato Farming Projects Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve",
+    "dev": "npx serve -p 8000",
+    "test": "echo \"Open index.html in your browser to test\""
+  },
+  "keywords": [
+    "gift",
+    "sweet-potato",
+    "farming",
+    "non-profit",
+    "agriculture"
+  ],
+  "author": "Global Institute For Transformation",
+  "license": "ISC"
+}
