@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GIFT's Vocational Training project - teaching practical skills to create sustainable income opportunities and economic independence">
+    <title>Vocational Training - GIFT Project</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="antialiased">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <a href="index.html" class="text-2xl font-bold text-white hover:text-gray-100 transition">GIFT</a>
+                    <span class="text-white text-sm hidden md:inline">| Global Institute For Transformation</span>
+                </div>
+                <!-- Desktop Navigation -->
+                <div id="nav-menu" class="hidden md:flex items-center space-x-6">
+                    <a href="index.html" class="nav-link text-white font-medium">Home</a>
+                    <a href="why-sweet-potatoes.html" class="nav-link text-white font-medium">Why Sweet Potatoes?</a>
+                    <a href="our-approach.html" class="nav-link text-white font-medium">Our Approach</a>
+
+                    <!-- Our Partners Dropdown -->
+                    <div class="relative group">
+                        <button class="nav-link text-white font-medium flex items-center">
+                            Our Partners
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 py-2 w-64 z-50">
+                            <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase">Haiti</div>
+                            <a href="larc-en-ciel-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Maison L'Arc-en-Ciel</a>
+                            <a href="wynne-farm-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Wynne Farm Ecological Preserve</a>
+                            <a href="university-fondwa-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">University of Fondwa</a>
+                            <a href="second-mile-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Second Mile Haiti</a>
+                            <a href="sfa-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Smallholder Farmers Alliance</a>
+                            <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase mt-2">Malawi</div>
+                            <a href="daughters-of-wisdom-malawi.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Daughters of Wisdom</a>
+                            <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase mt-2">Philippines</div>
+                            <a href="ecogenesis-philippines.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Ecogenesis</a>
+                        </div>
+                    </div>
+
+                    <!-- Projects Dropdown -->
+                    <div class="relative group">
+                        <button class="nav-link text-white font-medium flex items-center">
+                            Projects
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 py-2 w-64 z-50">
+                            <a href="project-sweet-potato.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Sweet Potato Smart Farming</a>
+                            <a href="project-spiritual-ministry.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Spiritual Ministry</a>
+                            <a href="project-vocational-training.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Vocational Training</a>
+                            <a href="project-solar-energy.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Solar Energy Projects</a>
+                            <a href="project-rabbit-farming.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Rabbit Farming</a>
+                        </div>
+                    </div>
+
+                    <a href="resources.html" class="nav-link text-white font-medium">Resources</a>
+                    <a href="impact.html" class="nav-link text-white font-medium">Impact</a>
+                    <a href="get-involved.html" class="btn-secondary">Get Involved</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden text-white" aria-label="Toggle navigation menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-blue-600 to-cyan-600 text-white py-20">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">Vocational Training</h1>
+                    <p class="text-xl md:text-2xl mb-4">
+                        Teaching Practical Skills to Create Sustainable Income Opportunities
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Overview Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-8">Building Skills, Creating Futures</h2>
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                GIFT's Vocational Training program equips individuals with practical skills that lead to
+                                sustainable employment and entrepreneurship. We believe that teaching people to earn their
+                                own income creates dignity, independence, and lasting transformation.
+                            </p>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                From sewing and tailoring to carpentry, small business management, and agricultural techniques,
+                                our partners provide hands-on training that meets local market needs and cultural contexts.
+                            </p>
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                Training doesn't stop at skill development - we also teach business planning, financial literacy,
+                                marketing, and entrepreneurship to help graduates launch successful micro-enterprises.
+                            </p>
+                        </div>
+                        <div class="bg-blue-50 p-8 rounded-lg">
+                            <h3 class="text-2xl font-bold mb-4 text-blue-900">Skills We Teach</h3>
+                            <ul class="space-y-3 text-gray-700">
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span>Sewing, tailoring, and garment production</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span>Carpentry and woodworking trades</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span>Agricultural and farming techniques</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span>Small business management and accounting</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span>Marketing and entrepreneurship</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-12">Our Training Process</h2>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                                <span class="text-2xl font-bold text-blue-600">1</span>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Hands-On Training</h3>
+                            <p class="text-gray-700">
+                                Practical, skills-based instruction from experienced trainers who teach through
+                                demonstration and supervised practice.
+                            </p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="w-12 h-12 bg-cyan-100 rounded-full flex items-center justify-center mb-4">
+                                <span class="text-2xl font-bold text-cyan-600">2</span>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Business Education</h3>
+                            <p class="text-gray-700">
+                                Teaching financial literacy, budgeting, record-keeping, and basic business planning
+                                to support entrepreneurship.
+                            </p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="w-12 h-12 bg-sky-100 rounded-full flex items-center justify-center mb-4">
+                                <span class="text-2xl font-bold text-sky-600">3</span>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Ongoing Support</h3>
+                            <p class="text-gray-700">
+                                Continued mentorship, access to tools and equipment, and help connecting
+                                graduates to markets and customers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Involved -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-5xl mx-auto">
+                    <h2 class="section-title text-center mb-4">Partners Providing Training</h2>
+                    <p class="text-center text-xl text-gray-600 mb-12">
+                        Organizations teaching skills that create economic opportunity
+                    </p>
+
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <a href="university-fondwa-haiti.html" class="card p-6 hover:shadow-xl transition">
+                            <div class="text-sm text-gray-500 mb-1">Haiti</div>
+                            <h3 class="text-lg font-bold mb-2 text-indigo-700">University of Fondwa</h3>
+                            <p class="text-gray-600 text-sm">Training rural entrepreneurs and agricultural professionals</p>
+                        </a>
+                        <a href="wynne-farm-haiti.html" class="card p-6 hover:shadow-xl transition">
+                            <div class="text-sm text-gray-500 mb-1">Haiti</div>
+                            <h3 class="text-lg font-bold mb-2 text-green-700">Wynne Farm</h3>
+                            <p class="text-gray-600 text-sm">Teaching sustainable agriculture and environmental stewardship</p>
+                        </a>
+                        <a href="sfa-haiti.html" class="card p-6 hover:shadow-xl transition">
+                            <div class="text-sm text-gray-500 mb-1">Haiti</div>
+                            <h3 class="text-lg font-bold mb-2 text-amber-700">Smallholder Farmers Alliance</h3>
+                            <p class="text-gray-600 text-sm">Training 7,200 farmers in modern farming techniques</p>
+                        </a>
+                        <a href="daughters-of-wisdom-malawi.html" class="card p-6 hover:shadow-xl transition">
+                            <div class="text-sm text-gray-500 mb-1">Malawi</div>
+                            <h3 class="text-lg font-bold mb-2 text-rose-700">Daughters of Wisdom</h3>
+                            <p class="text-gray-600 text-sm">Teaching vocational skills and agricultural practices</p>
+                        </a>
+                        <a href="ecogenesis-philippines.html" class="card p-6 hover:shadow-xl transition">
+                            <div class="text-sm text-gray-500 mb-1">Philippines</div>
+                            <h3 class="text-lg font-bold mb-2 text-sky-700">Ecogenesis</h3>
+                            <p class="text-gray-600 text-sm">Agricultural education and community empowerment</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Stats -->
+        <section class="py-20 bg-gradient-to-b from-blue-50 to-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-12">Training Impact</h2>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="bg-gradient-to-br from-blue-500 to-cyan-600 p-8 rounded-lg text-white text-center">
+                            <div class="text-5xl font-bold mb-2">800+</div>
+                            <div class="text-xl">People Trained</div>
+                        </div>
+                        <div class="bg-gradient-to-br from-cyan-500 to-sky-600 p-8 rounded-lg text-white text-center">
+                            <div class="text-5xl font-bold mb-2">150+</div>
+                            <div class="text-xl">Businesses Started</div>
+                        </div>
+                        <div class="bg-gradient-to-br from-sky-500 to-blue-600 p-8 rounded-lg text-white text-center">
+                            <div class="text-5xl font-bold mb-2">85%</div>
+                            <div class="text-xl">Employment Rate</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-20 bg-gradient-to-r from-blue-600 to-cyan-600 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-6">Support Vocational Training</h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">
+                    Help us equip more people with skills that create sustainable livelihoods and economic independence
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="get-involved.html" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition">
+                        Get Involved
+                    </a>
+                    <a href="our-approach.html" class="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-blue-600 transition">
+                        Learn More About Our Approach
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">GIFT</h4>
+                    <p class="text-gray-400 mb-4">Global Institute For Transformation - Fighting hunger and poverty through sustainable agriculture.</p>
+                    <a href="https://www.gifttransforms.org/" target="_blank" rel="noopener noreferrer" class="text-orange-400 hover:text-orange-300">Visit Main GIFT Website →</a>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="why-sweet-potatoes.html" class="text-gray-400 hover:text-orange-400">Why Sweet Potatoes?</a></li>
+                        <li><a href="our-approach.html" class="text-gray-400 hover:text-orange-400">Our Approach</a></li>
+                        <li><a href="resources.html" class="text-gray-400 hover:text-orange-400">Resources</a></li>
+                        <li><a href="impact.html" class="text-gray-400 hover:text-orange-400">Impact & Transparency</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Our Partners</h4>
+                    <ul class="space-y-2">
+                        <li><a href="larc-en-ciel-haiti.html" class="text-gray-400 hover:text-orange-400">Haiti Partners</a></li>
+                        <li><a href="daughters-of-wisdom-malawi.html" class="text-gray-400 hover:text-orange-400">Malawi Partners</a></li>
+                        <li><a href="ecogenesis-philippines.html" class="text-gray-400 hover:text-orange-400">Philippines Partners</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Contact Us</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><strong>Tim Maurer</strong><br>
+                            <a href="mailto:timothy.maurer@institutefortransformation.org" class="hover:text-orange-400">timothy.maurer@institutefortransformation.org</a>
+                        </li>
+                        <li><a href="tel:402-212-7973" class="hover:text-orange-400">402-212-7973</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 text-center text-gray-500 text-sm">
+                <p>&copy; 2025 Global Institute For Transformation (GIFT). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-orange-500 text-white p-4 rounded-full shadow-lg hover:bg-orange-600 transition transform hover:scale-110 hidden" aria-label="Back to top">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

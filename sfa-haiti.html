@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smallholder Farmers Alliance Haiti - GIFT Partner empowering 7,200 farmer members across Haiti">
+    <title>Smallholder Farmers Alliance - Haiti | GIFT Partner</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="antialiased">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <a href="index.html" class="text-2xl font-bold text-white hover:text-gray-100 transition">GIFT</a>
+                    <span class="text-white text-sm hidden md:inline">| Global Institute For Transformation</span>
+                </div>
+                <div id="nav-menu" class="hidden md:flex items-center space-x-6">
+                    <a href="index.html" class="nav-link text-white font-medium">Home</a>
+                    <a href="why-sweet-potatoes.html" class="nav-link text-white font-medium">Why Sweet Potatoes?</a>
+                    <a href="our-approach.html" class="nav-link text-white font-medium">Our Approach</a>
+                    <div class="relative group">
+                        <button class="nav-link text-white font-medium flex items-center">
+                            Our Partners
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 py-2 w-64">
+                            <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase">Haiti</div>
+                            <a href="larc-en-ciel-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Maison L'Arc-en-Ciel</a>
+                            <a href="wynne-farm-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Wynne Farm Ecological Preserve</a>
+                            <a href="university-fondwa-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">University of Fondwa</a>
+                            <a href="second-mile-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Second Mile Haiti</a>
+                            <a href="sfa-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Smallholder Farmers Alliance</a>
+                            <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase mt-2">Malawi</div>
+                            <a href="daughters-of-wisdom-malawi.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Daughters of Wisdom</a>
+                            <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase mt-2">Philippines</div>
+                            <a href="ecogenesis-philippines.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Ecogenesis</a>
+                        </div>
+                    </div>
+                    <a href="resources.html" class="nav-link text-white font-medium">Resources</a>
+                    <a href="impact.html" class="nav-link text-white font-medium">Impact</a>
+                    <a href="get-involved.html" class="btn-secondary">Get Involved</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden text-white" aria-label="Toggle navigation menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-amber-600 to-orange-600 text-white py-20">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">Smallholder Farmers Alliance</h1>
+                    <p class="text-xl md:text-2xl mb-4">
+                        Empowering 7,200 Farmers Across Haiti with Tree Currency and Sustainable Agriculture
+                    </p>
+                    <div class="flex items-center justify-center gap-2 text-lg">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                        <span>Throughout Haiti</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Local Weather Widget -->
+        <section class="py-8 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-2xl font-bold mb-4 text-center">Current Weather in Haiti</h2>
+                    <div class="bg-white rounded-lg shadow-lg p-4">
+                        <a class="weatherwidget-io" href="https://forecast7.com/en/18d59n72d31/port-au-prince/" data-label_1="SFA REGIONS" data-label_2="HAITI" data-theme="pure">SFA REGIONS HAITI</a>
+                        <script>
+                        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About the Partner -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title mb-8">About the Smallholder Farmers Alliance</h2>
+                    <div class="grid md:grid-cols-2 gap-12 items-start">
+                        <div>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                With 7,200 farmer members operating 3,600 small farms (5 acres or less) across Haiti,
+                                the Smallholder Farmers Alliance (SFA) has created something remarkable - a system where
+                                farmers earn "tree currency" by planting and maintaining trees, then exchange those credits
+                                for seeds, tools, and agricultural training.
+                            </p>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                The SFA operates 33 tree nurseries clustered around 10 branch locations, ensuring every
+                                farmer member lives within walking distance of a nursery. This isn't just about trees -
+                                it's about rebuilding Haiti's decimated forests while simultaneously helping farmers
+                                increase their crop yields and household incomes.
+                            </p>
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                The results speak for themselves: farmers see an average 40% increase in yields, and
+                                household incomes jump 50 to 100% depending on the region. When husband and wife farm
+                                together, they're recognized as separate members - acknowledging that women's contributions
+                                to farming are equal and essential.
+                            </p>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-amber-50 p-6 rounded-lg">
+                                <h3 class="font-bold text-xl mb-3 text-amber-900">The Numbers</h3>
+                                <ul class="text-gray-700 space-y-2">
+                                    <li><strong>7,200</strong> farmer members</li>
+                                    <li><strong>3,600</strong> farms of 5 acres or less</li>
+                                    <li><strong>33</strong> tree nurseries</li>
+                                    <li><strong>10</strong> branch locations</li>
+                                    <li><strong>40%</strong> average yield increase</li>
+                                    <li><strong>50-100%</strong> income increase</li>
+                                </ul>
+                            </div>
+                            <div class="bg-orange-50 p-6 rounded-lg">
+                                <h3 class="font-bold text-xl mb-3 text-orange-900">GIFT's Partnership</h3>
+                                <p class="text-gray-700">
+                                    GIFT collaborates with SFA to integrate sweet potato farming into their training
+                                    programs, providing another high-value crop for farmers to grow alongside their
+                                    reforestation work.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-12">The Tree Currency System</h2>
+                    <div class="grid md:grid-cols-4 gap-6">
+                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-2xl font-bold text-green-600">1</span>
+                            </div>
+                            <h3 class="text-lg font-bold mb-2">Plant Trees</h3>
+                            <p class="text-gray-700 text-sm">
+                                Farmers receive tree seedlings from nearby nurseries and plant them as orchards,
+                                living fences, or reforestation projects
+                            </p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-2xl font-bold text-blue-600">2</span>
+                            </div>
+                            <h3 class="text-lg font-bold mb-2">Maintain Trees</h3>
+                            <p class="text-gray-700 text-sm">
+                                Farmers care for their trees, ensuring they survive and thrive while preventing
+                                soil erosion
+                            </p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-2xl font-bold text-amber-600">3</span>
+                            </div>
+                            <h3 class="text-lg font-bold mb-2">Earn Credits</h3>
+                            <p class="text-gray-700 text-sm">
+                                Tree planting and maintenance earns "tree currency" - credits that have real value
+                                in the SFA system
+                            </p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-2xl font-bold text-orange-600">4</span>
+                            </div>
+                            <h3 class="text-lg font-bold mb-2">Exchange for Resources</h3>
+                            <p class="text-gray-700 text-sm">
+                                Credits are exchanged for quality seeds, tools, training, and agricultural services
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Stats -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-12">Real Results for Real Farmers</h2>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="bg-gradient-to-br from-green-500 to-emerald-600 p-8 rounded-lg text-white text-center">
+                            <div class="text-5xl font-bold mb-2">40%</div>
+                            <div class="text-xl">Average Yield Increase</div>
+                            <p class="mt-4 text-sm opacity-90">
+                                Better seeds and training lead to significantly higher crop production
+                            </p>
+                        </div>
+                        <div class="bg-gradient-to-br from-amber-500 to-orange-600 p-8 rounded-lg text-white text-center">
+                            <div class="text-5xl font-bold mb-2">50-100%</div>
+                            <div class="text-xl">Income Growth</div>
+                            <p class="mt-4 text-sm opacity-90">
+                                Higher yields and better practices mean more income for families
+                            </p>
+                        </div>
+                        <div class="bg-gradient-to-br from-blue-500 to-cyan-600 p-8 rounded-lg text-white text-center">
+                            <div class="text-5xl font-bold mb-2">33</div>
+                            <div class="text-xl">Tree Nurseries</div>
+                            <p class="mt-4 text-sm opacity-90">
+                                Every farmer member lives within walking distance of a nursery
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video & Testimonials Section -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-12">Farmers' Stories</h2>
+                    <div class="mb-12">
+                        <div class="video-container bg-gray-800 rounded-lg overflow-hidden shadow-xl">
+                            <div class="relative" style="padding-bottom: 56.25%;">
+                                <div class="absolute inset-0 flex flex-col items-center justify-center bg-gray-800">
+                                    <svg class="w-24 h-24 text-gray-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                    <p class="text-gray-400 text-center px-4">Video from Smallholder Farmers Alliance</p>
+                                    <p class="text-sm text-gray-500 mt-2">Add YouTube embed here</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="section-title text-center mb-12">Farms and Farmers</h2>
+                    <div class="grid md:grid-cols-3 gap-6 mb-8">
+                        <div class="bg-gradient-to-br from-amber-200 to-orange-300 h-64 rounded-lg flex items-center justify-center">
+                            <svg class="w-24 h-24 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="bg-gradient-to-br from-green-200 to-emerald-300 h-64 rounded-lg flex items-center justify-center">
+                            <svg class="w-24 h-24 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="bg-gradient-to-br from-orange-200 to-red-300 h-64 rounded-lg flex items-center justify-center">
+                            <svg class="w-24 h-24 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-center text-gray-600">
+                        Photos available from GIFT website or partner materials
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How Sweet Potatoes Fit In -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-8">Sweet Potatoes + Trees = Thriving Farms</h2>
+                    <div class="bg-orange-50 p-8 rounded-lg">
+                        <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                            The SFA's tree currency system and GIFT's sweet potato program work together beautifully.
+                            While farmers are planting trees to restore Haiti's forests and earning credits for
+                            agricultural inputs, they're also learning to grow one of the most valuable food crops
+                            available - sweet potatoes.
+                        </p>
+                        <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                            Sweet potatoes thrive in Haiti's climate and don't require expensive chemicals. They
+                            complement the SFA's philosophy perfectly: low-cost, sustainable practices that increase
+                            yields and income while protecting the environment.
+                        </p>
+                        <p class="text-lg text-gray-700 leading-relaxed">
+                            Farmers can use their tree currency credits to access sweet potato vines and training,
+                            then turn around and sell the harvest for good prices at market. It's another tool in
+                            their toolbox for building prosperous, sustainable farms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-20 bg-gradient-to-r from-amber-600 to-orange-600 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-6">Support Haiti's Smallholder Farmers</h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">
+                    Partner with SFA and GIFT to help thousands of Haitian farmers build sustainable, prosperous futures.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="get-involved.html" class="bg-white text-amber-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition">
+                        Get Involved
+                    </a>
+                    <a href="mailto:timothy.maurer@institutefortransformation.org" class="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-amber-600 transition">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">GIFT</h4>
+                    <p class="text-gray-400 mb-4">Global Institute For Transformation - Fighting hunger and poverty through sustainable agriculture.</p>
+                    <a href="https://www.gifttransforms.org/" target="_blank" rel="noopener noreferrer" class="text-orange-400 hover:text-orange-300">Visit Main GIFT Website →</a>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="why-sweet-potatoes.html" class="text-gray-400 hover:text-orange-400">Why Sweet Potatoes?</a></li>
+                        <li><a href="our-approach.html" class="text-gray-400 hover:text-orange-400">Our Approach</a></li>
+                        <li><a href="resources.html" class="text-gray-400 hover:text-orange-400">Resources</a></li>
+                        <li><a href="impact.html" class="text-gray-400 hover:text-orange-400">Impact & Transparency</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Our Partners</h4>
+                    <ul class="space-y-2">
+                        <li><a href="larc-en-ciel-haiti.html" class="text-gray-400 hover:text-orange-400">Haiti Partners</a></li>
+                        <li><a href="daughters-of-wisdom-malawi.html" class="text-gray-400 hover:text-orange-400">Malawi Partners</a></li>
+                        <li><a href="ecogenesis-philippines.html" class="text-gray-400 hover:text-orange-400">Philippines Partners</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Contact Us</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><strong>Tim Maurer</strong><br>
+                            <a href="mailto:timothy.maurer@institutefortransformation.org" class="hover:text-orange-400">timothy.maurer@institutefortransformation.org</a>
+                        </li>
+                        <li><a href="tel:402-212-7973" class="hover:text-orange-400">402-212-7973</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 text-center text-gray-500 text-sm">
+                <p>&copy; 2025 Global Institute For Transformation (GIFT). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-orange-500 text-white p-4 rounded-full shadow-lg hover:bg-orange-600 transition transform hover:scale-110 hidden" aria-label="Back to top">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

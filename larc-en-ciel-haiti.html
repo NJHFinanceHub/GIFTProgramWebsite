@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maison L'Arc-en-Ciel Haiti - GIFT Partner providing care for abandoned children affected by HIV">
+    <title>Maison L'Arc-en-Ciel - Haiti | GIFT Partner</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="antialiased">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <a href="index.html" class="text-2xl font-bold text-white hover:text-gray-100 transition">GIFT</a>
+                    <span class="text-white text-sm hidden md:inline">| Global Institute For Transformation</span>
+                </div>
+                <div id="nav-menu" class="hidden md:flex items-center space-x-6">
+                    <a href="index.html" class="nav-link text-white font-medium">Home</a>
+                    <a href="why-sweet-potatoes.html" class="nav-link text-white font-medium">Why Sweet Potatoes?</a>
+                    <a href="our-approach.html" class="nav-link text-white font-medium">Our Approach</a>
+                    <div class="relative group">
+                        <button class="nav-link text-white font-medium flex items-center">
+                            Our Partners
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 py-2 w-64">
+                            <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase">Haiti</div>
+                            <a href="larc-en-ciel-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Maison L'Arc-en-Ciel</a>
+                            <a href="wynne-farm-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Wynne Farm Ecological Preserve</a>
+                            <a href="university-fondwa-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">University of Fondwa</a>
+                            <a href="second-mile-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Second Mile Haiti</a>
+                            <a href="sfa-haiti.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Smallholder Farmers Alliance</a>
+                            <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase mt-2">Malawi</div>
+                            <a href="daughters-of-wisdom-malawi.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Daughters of Wisdom</a>
+                            <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase mt-2">Philippines</div>
+                            <a href="ecogenesis-philippines.html" class="block px-4 py-2 text-gray-800 hover:bg-orange-100">Ecogenesis</a>
+                        </div>
+                    </div>
+                    <a href="resources.html" class="nav-link text-white font-medium">Resources</a>
+                    <a href="impact.html" class="nav-link text-white font-medium">Impact</a>
+                    <a href="get-involved.html" class="btn-secondary">Get Involved</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden text-white" aria-label="Toggle navigation menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-purple-600 to-pink-600 text-white py-20">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">Maison L'Arc-en-Ciel</h1>
+                    <p class="text-xl md:text-2xl mb-4">
+                        A Home of Hope for Children Living with HIV
+                    </p>
+                    <div class="flex items-center justify-center gap-2 text-lg">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                        <span>Haiti</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Local Weather Widget -->
+        <section class="py-8 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-2xl font-bold mb-4 text-center">Current Weather in Port-au-Prince</h2>
+                    <div class="bg-white rounded-lg shadow-lg p-4">
+                        <!-- WeatherWidget.io embed -->
+                        <a class="weatherwidget-io" href="https://forecast7.com/en/18d59n72d31/port-au-prince/" data-label_1="PORT-AU-PRINCE" data-label_2="HAITI" data-theme="original">PORT-AU-PRINCE HAITI</a>
+                        <script>
+                        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About the Partner -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title mb-8">About Maison L'Arc-en-Ciel</h2>
+                    <div class="grid md:grid-cols-2 gap-12 items-start">
+                        <div>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                Maison L'Arc-en-Ciel, which translates to "Rainbow House," serves as a beacon of light
+                                for some of Haiti's most vulnerable children. The organization welcomes abandoned and
+                                stigmatized children who are infected with or affected by HIV, providing them with a
+                                loving home environment.
+                            </p>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                Every child deserves love, proper medical care, and the chance to grow up healthy.
+                                At L'Arc-en-Ciel, children receive comprehensive medical treatment, psychological
+                                support, and most importantly, the unconditional love and acceptance that every
+                                child needs.
+                            </p>
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                The staff works tirelessly to ensure these children not only survive, but thrive -
+                                attending school, making friends, and dreaming about their futures.
+                            </p>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-purple-50 p-6 rounded-lg">
+                                <h3 class="font-bold text-xl mb-3 text-purple-900">Their Mission</h3>
+                                <p class="text-gray-700">
+                                    To surround abandoned and stigmatized children infected or affected with HIV
+                                    with comprehensive medical and psychological care, creating a family environment
+                                    where they can heal and grow.
+                                </p>
+                            </div>
+                            <div class="bg-pink-50 p-6 rounded-lg">
+                                <h3 class="font-bold text-xl mb-3 text-pink-900">GIFT's Partnership</h3>
+                                <p class="text-gray-700">
+                                    GIFT supports L'Arc-en-Ciel by providing sweet potato farming capabilities that
+                                    help ensure proper nutrition for the children, strengthening their immune systems
+                                    and overall health.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects & Programs -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-12">Programs & Services</h2>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Medical Care</h3>
+                            <p class="text-gray-700">
+                                Antiretroviral therapy, regular health monitoring, and access to medical specialists
+                                ensure children receive life-saving treatment.
+                            </p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Psychological Support</h3>
+                            <p class="text-gray-700">
+                                Trauma-informed counseling helps children process their experiences and build
+                                resilience for the future.
+                            </p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Education</h3>
+                            <p class="text-gray-700">
+                                Children attend local schools and receive tutoring support to help them succeed
+                                academically and prepare for their futures.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video & Testimonials Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-12">Stories from the Rainbow House</h2>
+                    <div class="mb-12">
+                        <div class="video-container bg-gray-800 rounded-lg overflow-hidden shadow-xl">
+                            <!-- Replace VIDEO_ID with actual YouTube video ID -->
+                            <div class="relative" style="padding-bottom: 56.25%;">
+                                <div class="absolute inset-0 flex flex-col items-center justify-center bg-gray-800">
+                                    <svg class="w-24 h-24 text-gray-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                    <p class="text-gray-400 text-center px-4">YouTube video testimonial from L'Arc-en-Ciel</p>
+                                    <p class="text-sm text-gray-500 mt-2">Replace with actual video embed</p>
+                                </div>
+                            </div>
+                            <!-- Example embed code - uncomment and add actual video ID:
+                            <iframe
+                                src="https://www.youtube.com/embed/VIDEO_ID"
+                                title="Maison L'Arc-en-Ciel Video"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                            </iframe>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="section-title text-center mb-12">Life at Rainbow House</h2>
+                    <div class="grid md:grid-cols-3 gap-6 mb-8">
+                        <div class="bg-gradient-to-br from-purple-200 to-pink-200 h-64 rounded-lg flex items-center justify-center">
+                            <svg class="w-24 h-24 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="bg-gradient-to-br from-blue-200 to-purple-200 h-64 rounded-lg flex items-center justify-center">
+                            <svg class="w-24 h-24 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="bg-gradient-to-br from-pink-200 to-red-200 h-64 rounded-lg flex items-center justify-center">
+                            <svg class="w-24 h-24 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-center text-gray-600">
+                        Photos can be added from the GIFT website or provided directly
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How Sweet Potatoes Help -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="section-title text-center mb-8">How GIFT's Sweet Potatoes Support This Mission</h2>
+                    <div class="bg-orange-50 p-8 rounded-lg">
+                        <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                            For children living with HIV, proper nutrition isn't just important - it's critical for survival.
+                            Sweet potatoes are packed with Vitamin A and essential nutrients that help strengthen immune
+                            systems that are already compromised by the virus.
+                        </p>
+                        <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                            Through our partnership with Maison L'Arc-en-Ciel, GIFT provides the resources and training
+                            needed to grow orange-fleshed sweet potatoes right on site. This means the children have
+                            consistent access to fresh, nutritious food that supports their medical treatment and helps
+                            them grow strong.
+                        </p>
+                        <p class="text-lg text-gray-700 leading-relaxed">
+                            The sweet potato leaves are also edible and highly nutritious, providing another source of
+                            vitamins and minerals. Nothing goes to waste, and every harvest brings hope.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-20 bg-gradient-to-r from-purple-600 to-pink-600 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-6">Support Maison L'Arc-en-Ciel</h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">
+                    Your partnership can help provide nutritious food and hope to children who need it most.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="get-involved.html" class="bg-white text-purple-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition">
+                        Get Involved
+                    </a>
+                    <a href="mailto:timothy.maurer@institutefortransformation.org" class="bg-transparent border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-purple-600 transition">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">GIFT</h4>
+                    <p class="text-gray-400 mb-4">Global Institute For Transformation - Fighting hunger and poverty through sustainable agriculture.</p>
+                    <a href="https://www.gifttransforms.org/" target="_blank" rel="noopener noreferrer" class="text-orange-400 hover:text-orange-300">Visit Main GIFT Website →</a>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="why-sweet-potatoes.html" class="text-gray-400 hover:text-orange-400">Why Sweet Potatoes?</a></li>
+                        <li><a href="our-approach.html" class="text-gray-400 hover:text-orange-400">Our Approach</a></li>
+                        <li><a href="resources.html" class="text-gray-400 hover:text-orange-400">Resources</a></li>
+                        <li><a href="impact.html" class="text-gray-400 hover:text-orange-400">Impact & Transparency</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Our Partners</h4>
+                    <ul class="space-y-2">
+                        <li><a href="larc-en-ciel-haiti.html" class="text-gray-400 hover:text-orange-400">Haiti Partners</a></li>
+                        <li><a href="daughters-of-wisdom-malawi.html" class="text-gray-400 hover:text-orange-400">Malawi Partners</a></li>
+                        <li><a href="ecogenesis-philippines.html" class="text-gray-400 hover:text-orange-400">Philippines Partners</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Contact Us</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><strong>Tim Maurer</strong><br>
+                            <a href="mailto:timothy.maurer@institutefortransformation.org" class="hover:text-orange-400">timothy.maurer@institutefortransformation.org</a>
+                        </li>
+                        <li><a href="tel:402-212-7973" class="hover:text-orange-400">402-212-7973</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 text-center text-gray-500 text-sm">
+                <p>&copy; 2025 Global Institute For Transformation (GIFT). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-orange-500 text-white p-4 rounded-full shadow-lg hover:bg-orange-600 transition transform hover:scale-110 hidden" aria-label="Back to top">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
