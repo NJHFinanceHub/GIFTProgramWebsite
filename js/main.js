@@ -4,7 +4,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Mobile menu functionality
   const mobileMenuButton = document.getElementById('mobile-menu-button');
-  const navMenu = document.getElementById('nav-menu');
+  const navMenu = document.getElementById('mobile-nav') || document.getElementById('nav-menu');
 
   if (mobileMenuButton && navMenu) {
     mobileMenuButton.addEventListener('click', function() {
